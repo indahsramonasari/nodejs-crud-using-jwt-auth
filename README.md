@@ -28,8 +28,26 @@ https://www.getpostman.com/collections/ed5df8269cbe7f131f8f
 - npm start
 - the application will running on port 8080
 - Try to do a user registration, then sign in
-- Try to add a product, find all products, find a product by product id, update a product by product id, delete a product by product id using postman, don't forget set token at request header 
+- Try to register
+![signup.png](/images/signup.png)
 
+- Try to sign in
+![signin.png](/images/signin.png)
+
+- Try to add a product
+![addproduct.png](/images/addproduct.png)
+
+- Try to get all product list
+![getproducts.png](/images/getproducts.png)
+
+- Try to find a product by product id
+![getproductbyid.png](/images/getproductbyid.png)
+
+- Try to update a product by product id
+![update.png](/images/update.png)
+
+- Try to delete a product by product id using postman
+![delete.png](/images/delete.png)
 
 ### Reference
 - Node.js & Sequalize : https://scotch.io/tutorials/getting-started-with-node-express-and-postgres-using-sequelize
