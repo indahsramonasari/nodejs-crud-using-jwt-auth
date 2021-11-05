@@ -4,8 +4,9 @@ const database = require("../models");
 const User = database.user;
 
 verifyToken = (req, res, next) => {
-    console.log("Request header : ", req.headers);
-    let token = req.headers["access-token"];
+    const bearer = req.headers['authorization'];
+    let token = bearer.split(" ")[1];
+
     if (!token) {
         return res.status(403).send({
             message: "Error when get token!"
