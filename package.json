@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-express-sequelize-postgresql-jwt-auth",
+  "version": "1.0.0",
+  "description": "Simple CRUD projects using node js and postgres with jwt auth",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "rest",
+    "api",
+    "postgresql",
+    "jwt"
+  ],
+  "author": "isr",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^5.21.3",
+    "jsonwebtoken": "^8.5.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0"
+  }
+}
